@@ -7,7 +7,7 @@ This repository contains an SQL script to **generate all dates for a full year**
 - 🗓 **Day Name (Monday, Tuesday, etc.)**
 
 ## 📌 Query File  
-🔹 [Click here to view the SQL script](queries/generate_full_year_dates.sql)
+🔹 [Click here to view the SQL script](generate_full_year_dates.sql)
 
 ## 📖 SQL Script Overview  
 The script generates **365 dates** for a given year using Oracle SQL.  
