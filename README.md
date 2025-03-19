@@ -9,4 +9,4 @@ This repository contains an SQL script to **generate all dates for a full year**
 - 🗓 **Day Name (Monday, Tuesday, etc.)**
 
 ## 📌 Query File  
-🔹 [Click here to view the SQL script](generate_full_year_dates.sql)
+🔹 [Click here to view the SQL script](Complex-SQL-Queries/Full-Year-Dates-SQL/generate_full_year_dates.sql)
