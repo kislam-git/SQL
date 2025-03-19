@@ -4,7 +4,7 @@ This repository contains **five advanced SQL queries** designed for **Oracle SQL
 
 ## 📌 Queries List
 
-### 1️⃣ Top 5 Selling Products (Monthly)
+### 1️⃣ [Top 5 Selling Products (Monthly)](queries/query1_top_selling_products.sql)
 - **File:** `query1_top_selling_products.sql`
 - **Use Case:** Finds the **top 5 best-selling products per month** using `DENSE_RANK()`.
 - **Techniques Used:** Window functions (`DENSE_RANK()`), `PARTITION BY`.
