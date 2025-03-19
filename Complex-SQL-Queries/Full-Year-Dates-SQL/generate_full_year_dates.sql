@@ -5,7 +5,7 @@ WITH DateSeries AS (
 )
 SELECT 
     EXTRACT(YEAR FROM full_date) AS year,
-    EXTRACT(MONTH FROM full_date) AS month,
+    TO_CHAR(full_date, 'Month') AS month,
     EXTRACT(DAY FROM full_date) AS date,
     TO_CHAR(full_date, 'Day') AS day_name
 FROM DateSeries;
