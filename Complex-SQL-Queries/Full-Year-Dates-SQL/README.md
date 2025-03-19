@@ -15,6 +15,10 @@ It extracts the **year, month, date, and the day name** dynamically.
 
 
 🛠 SQL Query Explanation
-- The CONNECT BY LEVEL clause generates a sequence of 365 days.
-- The EXTRACT() function gets the year, month, and date.
-- The TO_CHAR(..., 'Day') function extracts the day name.
+-  The CONNECT BY LEVEL clause generates a sequence of 365 days.
+-  The TRUNC(DATE '2024-01-01') + LEVEL - 1 ensures it starts from January 1st and continues for the full year.
+-  The EXTRACT() function extracts:\
+  *  Year → EXTRACT(YEAR FROM full_date)
+  *  Month → EXTRACT(MONTH FROM full_date)
+  *  Date → EXTRACT(DAY FROM full_date)
+-  The TO_CHAR(full_date, 'Day') extracts the day name (Monday, Tuesday, etc.).
