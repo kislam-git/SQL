@@ -22,3 +22,6 @@ It extracts the **year, month, date, and the day name** dynamically.
   *  Month → EXTRACT(MONTH FROM full_date)
   *  Date → EXTRACT(DAY FROM full_date)
 -  The TO_CHAR(full_date, 'Day') extracts the day name (Monday, Tuesday, etc.).
+
+![image](https://github.com/user-attachments/assets/54f4b5cb-74c5-4ecb-9772-184b08deaaad)
+
