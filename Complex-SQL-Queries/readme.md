@@ -9,22 +9,22 @@ This repository contains **five advanced SQL queries** designed for **Oracle SQL
 - **Use Case:** Finds the **top 5 best-selling products per month** using `DENSE_RANK()`.
 - **Techniques Used:** Window functions (`DENSE_RANK()`), `PARTITION BY`.
 
-### 2️⃣ Customer Segmentation (High-Spending Customers)
+### 2️⃣ [Customer Segmentation (High-Spending Customers)](queries/customer_segmentation.sql)
 - **File:** `query2_customer_segmentation.sql`
 - **Use Case:** Classifies customers into **VIP, Regular, and Low-spending** groups based on total purchase amount.
 - **Techniques Used:** `CASE`, `SUM()`, `GROUP BY`, CTE.
 
-### 3️⃣ Recurring Orders (Customers with Monthly Purchases)
+### 3️⃣ [Recurring Orders (Customers with Monthly Purchases)](queries/recurring_orders.sql)
 - **File:** `query3_recurring_orders.sql`
 - **Use Case:** Identifies **customers who place orders in consecutive months**.
 - **Techniques Used:** `LAG()`, `PARTITION BY`, `DATEDIFF()`.
 
-### 4️⃣ Sales Trend Analysis (Moving Average)
+### 4️⃣ [Sales Trend Analysis (Moving Average)](queries/sales_trend_analysis.sql)
 - **File:** `query4_sales_trend_analysis.sql`
 - **Use Case:** Calculates a **3-month moving average of total sales**.
 - **Techniques Used:** `AVG() OVER (ROWS BETWEEN)`, time-series analysis.
 
-### 5️⃣ Employee Performance Ranking
+### 5️⃣ [Employee Performance Ranking](queries/employee_performance.sql)
 - **File:** `query5_employee_performance.sql`
 - **Use Case:** Ranks employees based on **total sales and performance score**.
 - **Techniques Used:** `RANK()`, `JOIN`, `SUM()`, `PARTITION BY`.
