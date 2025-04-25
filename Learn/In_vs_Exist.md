@@ -112,23 +112,3 @@ WHERE EXISTS (
 
 ---
 
-## 📚 Tables Used in Examples
-
-### `students` Table
-
-| student_id | name  |
-|------------|-------|
-| 1          | Rahim |
-| 2          | Karim |
-| 3          | Jamil |
-| 4          | Salma |
-
-### `exam_results` Table
-
-| student_id | subject  | marks |
-|------------|----------|-------|
-| 1          | Math     | 85    |
-| 2          | Math     | 60    |
-| 1          | English  | 90    |
-
---
